@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T19:15:14 IST" name="Suite" finished-at="2023-11-08T19:16:38 IST" duration-ms="84971">
+    <groups>
+    </groups>
+    <test started-at="2023-11-08T19:15:14 IST" name="Test" finished-at="2023-11-08T19:16:38 IST" duration-ms="84971">
+      <class name="MercurytoursTestscenerios.Mercury_TC2_Login">
+        <test-method is-config="true" signature="name(java.lang.String)[pri:0, instance:MercurytoursTestscenerios.Mercury_TC2_Login@6f4ade6e]" started-at="2023-11-08T19:15:26 IST" name="name" finished-at="2023-11-08T19:15:27 IST" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="Loginpage()[pri:0, instance:MercurytoursTestscenerios.Mercury_TC2_Login@6f4ade6e]" started-at="2023-11-08T19:15:27 IST" name="Loginpage" finished-at="2023-11-08T19:15:37 IST" duration-ms="10151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginpage -->
+      </class> <!-- MercurytoursTestscenerios.Mercury_TC2_Login -->
+      <class name="MercurytoursTestscenerios.Mercury__TC1_register">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:MercurytoursTestscenerios.Mercury__TC1_register@38320e34]" started-at="2023-11-08T19:15:13 IST" name="BeforeSuite" finished-at="2023-11-08T19:15:14 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="name(java.lang.String)[pri:0, instance:MercurytoursTestscenerios.Mercury__TC1_register@38320e34]" started-at="2023-11-08T19:15:14 IST" name="name" finished-at="2023-11-08T19:15:20 IST" duration-ms="5958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="register()[pri:0, instance:MercurytoursTestscenerios.Mercury__TC1_register@38320e34]" started-at="2023-11-08T19:15:20 IST" name="register" finished-at="2023-11-08T19:15:26 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="email()[pri:0, instance:MercurytoursTestscenerios.Mercury__TC1_register@38320e34]" started-at="2023-11-08T19:16:33 IST" name="email" finished-at="2023-11-08T19:16:38 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:MercurytoursTestscenerios.Mercury__TC1_register@38320e34]" started-at="2023-11-08T19:16:39 IST" name="AfterSuite" finished-at="2023-11-08T19:16:39 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- MercurytoursTestscenerios.Mercury__TC1_register -->
+      <class name="MercurytoursTestscenerios.Orange_hrm_TC4_addemployee">
+        <test-method is-config="true" signature="name(java.lang.String)[pri:0, instance:MercurytoursTestscenerios.Orange_hrm_TC4_addemployee@3ec2ecea]" started-at="2023-11-08T19:16:02 IST" name="name" finished-at="2023-11-08T19:16:04 IST" duration-ms="1644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="Addemployee()[pri:0, instance:MercurytoursTestscenerios.Orange_hrm_TC4_addemployee@3ec2ecea]" started-at="2023-11-08T19:16:04 IST" name="Addemployee" finished-at="2023-11-08T19:16:33 IST" duration-ms="29492" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at MercurytoursTestscenerios.Orange_hrm_TC4_addemployee.Addemployee(Orange_hrm_TC4_addemployee.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addemployee -->
+      </class> <!-- MercurytoursTestscenerios.Orange_hrm_TC4_addemployee -->
+      <class name="MercurytoursTestscenerios.Mercury_TC3_flightbooking">
+        <test-method is-config="true" signature="name(java.lang.String)[pri:0, instance:MercurytoursTestscenerios.Mercury_TC3_flightbooking@86733]" started-at="2023-11-08T19:15:37 IST" name="name" finished-at="2023-11-08T19:15:40 IST" duration-ms="2695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="flightbooking()[pri:0, instance:MercurytoursTestscenerios.Mercury_TC3_flightbooking@86733]" started-at="2023-11-08T19:15:40 IST" name="flightbooking" finished-at="2023-11-08T19:16:02 IST" duration-ms="22294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightbooking -->
+      </class> <!-- MercurytoursTestscenerios.Mercury_TC3_flightbooking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
